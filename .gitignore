@@ -1,0 +1,39 @@
+# Node
+node_modules/
+.env
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac system files
+.DS_Store
+
+# Test coverage
+coverage/
+
+# Terraform
+terraform/.terraform/
+terraform/terraform.tfstate*
+terraform/uiapp
+
+# VSCode
+.vscode/
+
+# Misc
+*.local
+*.log
+
+# OS junk files
+Thumbs.db
+
+# IDEs
+.idea/
+
+# Ignore output from AWS CLI sync
+.aws-s3-upload-cache/
